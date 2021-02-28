@@ -5,7 +5,7 @@ public class DmvSimulator {
 		System.out.println("Hi! Welcome to the DMV!");
 		Random r = new Random();
 		int min = 1;
-		int max = 100;
+		int max = 200;
 		int randomNum = r.nextInt(max-min)+min;
 		System.out.println("Your number is "+randomNum+ ". Please wait for your number to be called.");
 		for (int i = randomNum+1; i<=max;i++ ) {
