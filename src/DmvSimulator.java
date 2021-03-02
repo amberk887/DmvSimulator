@@ -22,6 +22,7 @@ public class DmvSimulator {
 			System.out.println("Oh, of course. You don't have the required documents. I don't know why I expected you to. Thanks for wasting my time.");
 
 		}
+
 		
 	}
 
