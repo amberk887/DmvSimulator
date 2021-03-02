@@ -14,7 +14,15 @@ public class DmvSimulator {
 		for (int i = min; i<=randomNum;i++) {
 			System.out.println(i);
 		}
-		System.out.println("Oh, of course. You don't have the required documents. I don't know why I expected you to. Thanks for wasting my time. mWAHAHAHAH");
+		int randomNum2 = r.nextInt(max-min)+min;
+		if (randomNum2 == 3) {
+			System.out.println("You have all your papers, you're set.");
+		}
+		else {
+			System.out.println("Oh, of course. You don't have the required documents. I don't know why I expected you to. Thanks for wasting my time.");
+
+		}
+
 		
 	}
 
